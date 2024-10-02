@@ -1,0 +1,54 @@
+11:02:59.902 [main] INFO  phonebook_tests.TestBase -- ****************** TESTING IN PROGRESS ******************
+11:03:02.084 [main] INFO  phonebook.utils.MyListener -- Before get url ==>> https://telranedu.web.app/home
+11:03:02.331 [main] INFO  phonebook.utils.MyListener -- After get url ==>> https://telranedu.web.app/home
+11:03:02.640 [main] INFO  phonebook_tests.TestBase -- Test is started: [loginExistedUserPositiveTest]
+11:03:02.647 [main] INFO  phonebook.utils.MyListener -- Before find Element ==>> By.xpath: //a[.='LOGIN']
+11:03:02.699 [main] INFO  phonebook.utils.MyListener -- After find Element ==>> By.xpath: //a[.='LOGIN']
+11:03:02.737 [main] INFO  phonebook.utils.MyListener -- Before get url ==>> https://telranedu.web.app/login
+11:03:02.827 [main] INFO  phonebook.utils.MyListener -- After get url ==>> https://telranedu.web.app/login
+11:03:02.832 [main] INFO  phonebook.utils.MyListener -- Before find Element ==>> By.xpath: //a[.='LOGIN']
+11:03:02.882 [main] INFO  phonebook.utils.MyListener -- After find Element ==>> By.xpath: //a[.='LOGIN']
+11:03:02.978 [main] INFO  phonebook.fw.UserHelper -- Login with data: user_admin_Anna@gmail.com | PasswordAnna@1
+11:03:02.979 [main] INFO  phonebook.utils.MyListener -- Before find Element ==>> By.name: email
+11:03:03.010 [main] INFO  phonebook.utils.MyListener -- After find Element ==>> By.name: email
+11:03:03.094 [main] INFO  phonebook.utils.MyListener -- Before find Element ==>> By.name: email
+11:03:03.125 [main] INFO  phonebook.utils.MyListener -- After find Element ==>> By.name: email
+11:03:03.163 [main] INFO  phonebook.utils.MyListener -- Before find Element ==>> By.name: email
+11:03:03.186 [main] INFO  phonebook.utils.MyListener -- After find Element ==>> By.name: email
+11:03:03.250 [main] INFO  phonebook.utils.MyListener -- Before find Element ==>> By.name: password
+11:03:03.274 [main] INFO  phonebook.utils.MyListener -- After find Element ==>> By.name: password
+11:03:03.340 [main] INFO  phonebook.utils.MyListener -- Before find Element ==>> By.name: password
+11:03:03.360 [main] INFO  phonebook.utils.MyListener -- After find Element ==>> By.name: password
+11:03:03.391 [main] INFO  phonebook.utils.MyListener -- Before find Element ==>> By.name: password
+11:03:03.409 [main] INFO  phonebook.utils.MyListener -- After find Element ==>> By.name: password
+11:03:03.453 [main] INFO  phonebook.utils.MyListener -- Before find Element ==>> By.name: login
+11:03:03.477 [main] INFO  phonebook.utils.MyListener -- After find Element ==>> By.name: login
+11:03:03.544 [main] INFO  phonebook.utils.MyListener -- Before find Element ==>> By.xpath: //*[.='Sign Out']
+11:03:04.451 [main] ERROR phonebook.utils.MyListener -- Что-то пошло не так!!
+11:03:04.452 [main] ERROR phonebook.utils.MyListener -- ***************************************************
+11:03:04.452 [main] ERROR phonebook.utils.MyListener -- Method ==>> findElement
+11:03:04.452 [main] ERROR phonebook.utils.MyListener -- ***************************************************
+11:03:04.452 [main] ERROR phonebook.utils.MyListener -- Object target ==>> ChromeDriver: chrome on windows (d4ec700f1f97acc409541462e6186aa5)
+11:03:04.452 [main] ERROR phonebook.utils.MyListener -- ***************************************************
+11:03:04.456 [main] ERROR phonebook.utils.MyListener -- Target exception ==>> org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: //*[.='Sign Out']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.23'
+Driver info: driver.version: RemoteWebDriver
+11:03:04.456 [main] ERROR phonebook.utils.MyListener -- ***************************************************
+11:03:04.963 [main] INFO  phonebook.utils.MyListener -- Before find Element ==>> By.xpath: //*[.='Sign Out']
+11:03:04.991 [main] ERROR phonebook.utils.MyListener -- Что-то пошло не так!!
+11:03:04.992 [main] ERROR phonebook.utils.MyListener -- ***************************************************
+11:03:04.993 [main] ERROR phonebook.utils.MyListener -- Method ==>> findElement
+11:03:04.994 [main] ERROR phonebook.utils.MyListener -- ***************************************************
+11:03:04.996 [main] ERROR phonebook.utils.MyListener -- Object target ==>> ChromeDriver: chrome on windows (d4ec700f1f97acc409541462e6186aa5)
+11:03:04.997 [main] ERROR phonebook.utils.MyListener -- ***************************************************
+11:03:04.998 [main] ERROR phonebook.utils.MyListener -- Target exception ==>> org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Wrong email or password}
+  (Session info: chrome=127.0.6533.90): Wrong email or password
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.23'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d4ec700f1f97acc409541462e6186aa5, findElement {using=xpath, value=//*[.='Sign Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.90, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Program Files\scoped_dir...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62603}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62603/devtoo..., se:cdpVersion: 127.0.6533.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d4ec700f1f97acc409541462e6186aa5
+11:03:04.998 [main] ERROR phonebook.utils.MyListener -- ***************************************************

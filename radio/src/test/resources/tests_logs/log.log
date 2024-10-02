@@ -1,0 +1,215 @@
+02:33:13.016 [main] INFO  i.g.b.wdm.online.Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/129.0.6668.71/win64/chromedriver-win64.zip
+02:33:14.429 [main] INFO  i.g.b.wdm.online.Downloader - Extracting driver from compressed file chromedriver-win64.zip
+02:33:16.358 [main] INFO  ui.utils.MyListener - Before get url ==>> https://urchin-app-jq2i7.ondigitalocean.app/#/login
+02:33:17.050 [main] INFO  ui.utils.MyListener - After get url ==>> https://urchin-app-jq2i7.ondigitalocean.app/#/login
+02:33:17.228 [main] INFO  ui.utils.MyListener - Before find Element ==>> By.xpath: //input[@placeholder='login']
+02:33:17.268 [main] INFO  ui.utils.MyListener - After find Element ==>> By.xpath: //input[@placeholder='login']
+02:33:17.321 [main] INFO  ui.utils.MyListener - Before find Element ==>> By.xpath: //input[@placeholder='login']
+02:33:17.343 [main] INFO  ui.utils.MyListener - After find Element ==>> By.xpath: //input[@placeholder='login']
+02:33:17.415 [main] INFO  ui.utils.MyListener - Before find Element ==>> By.xpath: //input[@placeholder='password']
+02:33:17.439 [main] INFO  ui.utils.MyListener - After find Element ==>> By.xpath: //input[@placeholder='password']
+02:33:17.469 [main] INFO  ui.utils.MyListener - Before find Element ==>> By.xpath: //input[@placeholder='password']
+02:33:17.493 [main] INFO  ui.utils.MyListener - After find Element ==>> By.xpath: //input[@placeholder='password']
+02:33:17.560 [main] INFO  ui.utils.MyListener - Before find Element ==>> By.xpath: //button[@type='submit']
+02:33:17.584 [main] INFO  ui.utils.MyListener - After find Element ==>> By.xpath: //button[@type='submit']
+02:33:17.660 [main] INFO  ui.utils.MyListener - Before find Element ==>> By.id: logoutBtn
+02:33:19.716 [main] ERROR ui.utils.MyListener - Что-то пошло не так!!
+02:33:19.716 [main] ERROR ui.utils.MyListener - ***************************************************
+02:33:19.717 [main] ERROR ui.utils.MyListener - Method ==>> findElement
+02:33:19.717 [main] ERROR ui.utils.MyListener - ***************************************************
+02:33:19.718 [main] ERROR ui.utils.MyListener - Object target ==>> ChromeDriver: chrome on windows (22ba3d4aec3097756393dc3f83580185)
+02:33:19.718 [main] ERROR ui.utils.MyListener - ***************************************************
+02:33:19.720 [main] ERROR ui.utils.MyListener - Target exception ==>> org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#logoutBtn"}
+  (Session info: chrome=129.0.6668.70)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [22ba3d4aec3097756393dc3f83580185, findElement {value=logoutBtn, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.71 (755228feba24..., userDataDir: C:\Program Files\scoped_dir...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61299}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61299/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 22ba3d4aec3097756393dc3f83580185
+02:33:19.721 [main] ERROR ui.utils.MyListener - ***************************************************
+02:35:35.539 [main] INFO  ui.utils.MyListener - Before get url ==>> https://urchin-app-jq2i7.ondigitalocean.app/#/login
+02:35:36.272 [main] INFO  ui.utils.MyListener - After get url ==>> https://urchin-app-jq2i7.ondigitalocean.app/#/login
+02:35:36.507 [main] INFO  ui.utils.MyListener - Before find Element ==>> By.xpath: //input[@placeholder='login']
+02:35:36.537 [main] INFO  ui.utils.MyListener - After find Element ==>> By.xpath: //input[@placeholder='login']
+02:35:36.595 [main] INFO  ui.utils.MyListener - Before find Element ==>> By.xpath: //input[@placeholder='login']
+02:35:36.620 [main] INFO  ui.utils.MyListener - After find Element ==>> By.xpath: //input[@placeholder='login']
+02:35:36.692 [main] INFO  ui.utils.MyListener - Before find Element ==>> By.xpath: //input[@placeholder='password']
+02:35:36.716 [main] INFO  ui.utils.MyListener - After find Element ==>> By.xpath: //input[@placeholder='password']
+02:35:36.743 [main] INFO  ui.utils.MyListener - Before find Element ==>> By.xpath: //input[@placeholder='password']
+02:35:36.770 [main] INFO  ui.utils.MyListener - After find Element ==>> By.xpath: //input[@placeholder='password']
+02:35:36.829 [main] INFO  ui.utils.MyListener - Before find Element ==>> By.xpath: //button[@type='submit']
+02:35:36.853 [main] INFO  ui.utils.MyListener - After find Element ==>> By.xpath: //button[@type='submit']
+02:35:36.933 [main] INFO  ui.utils.MyListener - Before find Element ==>> By.id: logoutBtn
+02:35:39.016 [main] ERROR ui.utils.MyListener - Что-то пошло не так!!
+02:35:39.017 [main] ERROR ui.utils.MyListener - ***************************************************
+02:35:39.017 [main] ERROR ui.utils.MyListener - Method ==>> findElement
+02:35:39.017 [main] ERROR ui.utils.MyListener - ***************************************************
+02:35:39.018 [main] ERROR ui.utils.MyListener - Object target ==>> ChromeDriver: chrome on windows (e220f5d0a217dca8496a756651480e1d)
+02:35:39.018 [main] ERROR ui.utils.MyListener - ***************************************************
+02:35:39.020 [main] ERROR ui.utils.MyListener - Target exception ==>> org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#logoutBtn"}
+  (Session info: chrome=129.0.6668.70)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e220f5d0a217dca8496a756651480e1d, findElement {value=logoutBtn, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.71 (755228feba24..., userDataDir: C:\Program Files\scoped_dir...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61359}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61359/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e220f5d0a217dca8496a756651480e1d
+02:35:39.020 [main] ERROR ui.utils.MyListener - ***************************************************
+02:39:06.816 [main] INFO  ui.utils.MyListener - Before get url ==>> https://urchin-app-jq2i7.ondigitalocean.app/#/login
+02:39:07.256 [main] INFO  ui.utils.MyListener - After get url ==>> https://urchin-app-jq2i7.ondigitalocean.app/#/login
+02:39:07.517 [main] INFO  ui.utils.MyListener - Before find Element ==>> By.xpath: //input[@placeholder='login']
+02:39:07.553 [main] INFO  ui.utils.MyListener - After find Element ==>> By.xpath: //input[@placeholder='login']
+02:39:07.607 [main] INFO  ui.utils.MyListener - Before find Element ==>> By.xpath: //input[@placeholder='login']
+02:39:07.630 [main] INFO  ui.utils.MyListener - After find Element ==>> By.xpath: //input[@placeholder='login']
+02:39:07.699 [main] INFO  ui.utils.MyListener - Before find Element ==>> By.xpath: //input[@placeholder='password']
+02:39:07.724 [main] INFO  ui.utils.MyListener - After find Element ==>> By.xpath: //input[@placeholder='password']
+02:39:07.752 [main] INFO  ui.utils.MyListener - Before find Element ==>> By.xpath: //input[@placeholder='password']
+02:39:07.781 [main] INFO  ui.utils.MyListener - After find Element ==>> By.xpath: //input[@placeholder='password']
+02:39:07.834 [main] INFO  ui.utils.MyListener - Before find Element ==>> By.xpath: //button[@type='submit']
+02:39:07.858 [main] INFO  ui.utils.MyListener - After find Element ==>> By.xpath: //button[@type='submit']
+02:39:07.942 [main] INFO  ui.utils.MyListener - Before find Element ==>> By.id: logoutBtn
+02:39:10.016 [main] ERROR ui.utils.MyListener - Что-то пошло не так!!
+02:39:10.017 [main] ERROR ui.utils.MyListener - ***************************************************
+02:39:10.017 [main] ERROR ui.utils.MyListener - Method ==>> findElement
+02:39:10.017 [main] ERROR ui.utils.MyListener - ***************************************************
+02:39:10.018 [main] ERROR ui.utils.MyListener - Object target ==>> ChromeDriver: chrome on windows (dcf4bd38b202a719201a841138432e89)
+02:39:10.018 [main] ERROR ui.utils.MyListener - ***************************************************
+02:39:10.020 [main] ERROR ui.utils.MyListener - Target exception ==>> org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#logoutBtn"}
+  (Session info: chrome=129.0.6668.70)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dcf4bd38b202a719201a841138432e89, findElement {value=logoutBtn, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.71 (755228feba24..., userDataDir: C:\Program Files\scoped_dir...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61437}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61437/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dcf4bd38b202a719201a841138432e89
+02:39:10.020 [main] ERROR ui.utils.MyListener - ***************************************************
+02:43:04.000 [main] INFO  ui.utils.MyListener - Before get url ==>> https://urchin-app-jq2i7.ondigitalocean.app/#/login
+02:43:04.318 [main] INFO  ui.utils.MyListener - After get url ==>> https://urchin-app-jq2i7.ondigitalocean.app/#/login
+02:43:04.513 [main] INFO  ui.utils.MyListener - Before find Element ==>> By.xpath: //input[@placeholder='login']
+02:43:04.554 [main] INFO  ui.utils.MyListener - After find Element ==>> By.xpath: //input[@placeholder='login']
+02:43:04.606 [main] INFO  ui.utils.MyListener - Before find Element ==>> By.xpath: //input[@placeholder='login']
+02:43:04.628 [main] INFO  ui.utils.MyListener - After find Element ==>> By.xpath: //input[@placeholder='login']
+02:43:04.692 [main] INFO  ui.utils.MyListener - Before find Element ==>> By.xpath: //input[@placeholder='password']
+02:43:04.715 [main] INFO  ui.utils.MyListener - After find Element ==>> By.xpath: //input[@placeholder='password']
+02:43:04.741 [main] INFO  ui.utils.MyListener - Before find Element ==>> By.xpath: //input[@placeholder='password']
+02:43:04.770 [main] INFO  ui.utils.MyListener - After find Element ==>> By.xpath: //input[@placeholder='password']
+02:43:04.822 [main] INFO  ui.utils.MyListener - Before find Element ==>> By.xpath: //button[@type='submit']
+02:43:04.844 [main] INFO  ui.utils.MyListener - After find Element ==>> By.xpath: //button[@type='submit']
+02:43:04.920 [main] INFO  ui.utils.MyListener - Before find Element ==>> By.xpath: //a[normalize-space(text())='Login/Register']
+02:43:04.943 [main] INFO  ui.utils.MyListener - After find Element ==>> By.xpath: //a[normalize-space(text())='Login/Register']
+02:44:10.971 [main] INFO  ui.utils.MyListener - Before get url ==>> https://urchin-app-jq2i7.ondigitalocean.app/#/login
+02:44:11.257 [main] INFO  ui.utils.MyListener - After get url ==>> https://urchin-app-jq2i7.ondigitalocean.app/#/login
+02:44:11.446 [main] INFO  ui.utils.MyListener - Before find Element ==>> By.xpath: //input[@placeholder='login']
+02:44:11.491 [main] INFO  ui.utils.MyListener - After find Element ==>> By.xpath: //input[@placeholder='login']
+02:44:11.544 [main] INFO  ui.utils.MyListener - Before find Element ==>> By.xpath: //input[@placeholder='login']
+02:44:11.566 [main] INFO  ui.utils.MyListener - After find Element ==>> By.xpath: //input[@placeholder='login']
+02:44:11.632 [main] INFO  ui.utils.MyListener - Before find Element ==>> By.xpath: //input[@placeholder='password']
+02:44:11.656 [main] INFO  ui.utils.MyListener - After find Element ==>> By.xpath: //input[@placeholder='password']
+02:44:11.682 [main] INFO  ui.utils.MyListener - Before find Element ==>> By.xpath: //input[@placeholder='password']
+02:44:11.711 [main] INFO  ui.utils.MyListener - After find Element ==>> By.xpath: //input[@placeholder='password']
+02:44:11.767 [main] INFO  ui.utils.MyListener - Before find Element ==>> By.xpath: //button[@type='submit']
+02:44:11.790 [main] INFO  ui.utils.MyListener - After find Element ==>> By.xpath: //button[@type='submit']
+02:44:11.863 [main] INFO  ui.utils.MyListener - Before find Element ==>> By.xpath: //a[normalize-space(text())='Login/Register']
+02:44:11.884 [main] INFO  ui.utils.MyListener - After find Element ==>> By.xpath: //a[normalize-space(text())='Login/Register']
+02:44:36.146 [main] INFO  ui.utils.MyListener - Before get url ==>> https://urchin-app-jq2i7.ondigitalocean.app/#/login
+02:44:36.405 [main] INFO  ui.utils.MyListener - After get url ==>> https://urchin-app-jq2i7.ondigitalocean.app/#/login
+02:44:36.567 [main] INFO  ui.utils.MyListener - Before find Element ==>> By.xpath: //input[@placeholder='login']
+02:44:36.603 [main] INFO  ui.utils.MyListener - After find Element ==>> By.xpath: //input[@placeholder='login']
+02:44:36.663 [main] INFO  ui.utils.MyListener - Before find Element ==>> By.xpath: //input[@placeholder='login']
+02:44:36.684 [main] INFO  ui.utils.MyListener - After find Element ==>> By.xpath: //input[@placeholder='login']
+02:44:36.753 [main] INFO  ui.utils.MyListener - Before find Element ==>> By.xpath: //input[@placeholder='password']
+02:44:36.776 [main] INFO  ui.utils.MyListener - After find Element ==>> By.xpath: //input[@placeholder='password']
+02:44:36.802 [main] INFO  ui.utils.MyListener - Before find Element ==>> By.xpath: //input[@placeholder='password']
+02:44:36.831 [main] INFO  ui.utils.MyListener - After find Element ==>> By.xpath: //input[@placeholder='password']
+02:44:36.887 [main] INFO  ui.utils.MyListener - Before find Element ==>> By.xpath: //button[@type='submit']
+02:44:36.909 [main] INFO  ui.utils.MyListener - After find Element ==>> By.xpath: //button[@type='submit']
+02:44:36.985 [main] INFO  ui.utils.MyListener - Before find Element ==>> By.xpath: //a[normalize-space(text())='Login/Register']
+02:44:37.009 [main] INFO  ui.utils.MyListener - After find Element ==>> By.xpath: //a[normalize-space(text())='Login/Register']
+02:45:07.291 [main] INFO  ui.utils.MyListener - Before get url ==>> https://urchin-app-jq2i7.ondigitalocean.app/#/login
+02:45:07.550 [main] INFO  ui.utils.MyListener - After get url ==>> https://urchin-app-jq2i7.ondigitalocean.app/#/login
+02:45:07.731 [main] INFO  ui.utils.MyListener - Before find Element ==>> By.xpath: //input[@placeholder='login']
+02:45:07.766 [main] INFO  ui.utils.MyListener - After find Element ==>> By.xpath: //input[@placeholder='login']
+02:45:07.818 [main] INFO  ui.utils.MyListener - Before find Element ==>> By.xpath: //input[@placeholder='login']
+02:45:07.839 [main] INFO  ui.utils.MyListener - After find Element ==>> By.xpath: //input[@placeholder='login']
+02:45:07.911 [main] INFO  ui.utils.MyListener - Before find Element ==>> By.xpath: //input[@placeholder='password']
+02:45:07.941 [main] INFO  ui.utils.MyListener - After find Element ==>> By.xpath: //input[@placeholder='password']
+02:45:07.968 [main] INFO  ui.utils.MyListener - Before find Element ==>> By.xpath: //input[@placeholder='password']
+02:45:07.984 [main] INFO  ui.utils.MyListener - After find Element ==>> By.xpath: //input[@placeholder='password']
+02:45:08.041 [main] INFO  ui.utils.MyListener - Before find Element ==>> By.xpath: //button[@type='submit']
+02:45:08.063 [main] INFO  ui.utils.MyListener - After find Element ==>> By.xpath: //button[@type='submit']
+02:45:08.139 [main] INFO  ui.utils.MyListener - Before find Element ==>> By.xpath: //a[normalize-space(text())='Login/Register']
+02:45:08.160 [main] INFO  ui.utils.MyListener - After find Element ==>> By.xpath: //a[normalize-space(text())='Login/Register']
+02:46:32.432 [main] INFO  ui.utils.MyListener - Before get url ==>> https://urchin-app-jq2i7.ondigitalocean.app/#/login
+02:46:32.703 [main] INFO  ui.utils.MyListener - After get url ==>> https://urchin-app-jq2i7.ondigitalocean.app/#/login
+02:46:32.879 [main] INFO  ui.utils.MyListener - Before find Element ==>> By.xpath: //input[@placeholder='login']
+02:46:32.916 [main] INFO  ui.utils.MyListener - After find Element ==>> By.xpath: //input[@placeholder='login']
+02:46:32.975 [main] INFO  ui.utils.MyListener - Before find Element ==>> By.xpath: //input[@placeholder='login']
+02:46:32.999 [main] INFO  ui.utils.MyListener - After find Element ==>> By.xpath: //input[@placeholder='login']
+02:46:33.068 [main] INFO  ui.utils.MyListener - Before find Element ==>> By.xpath: //input[@placeholder='password']
+02:46:33.091 [main] INFO  ui.utils.MyListener - After find Element ==>> By.xpath: //input[@placeholder='password']
+02:46:33.118 [main] INFO  ui.utils.MyListener - Before find Element ==>> By.xpath: //input[@placeholder='password']
+02:46:33.144 [main] INFO  ui.utils.MyListener - After find Element ==>> By.xpath: //input[@placeholder='password']
+02:46:33.198 [main] INFO  ui.utils.MyListener - Before find Element ==>> By.xpath: //button[@type='submit']
+02:46:33.219 [main] INFO  ui.utils.MyListener - After find Element ==>> By.xpath: //button[@type='submit']
+02:46:33.294 [main] INFO  ui.utils.MyListener - Before find Element ==>> By.xpath: //a[normalize-space(text())='Login/Register']
+02:46:33.316 [main] INFO  ui.utils.MyListener - After find Element ==>> By.xpath: //a[normalize-space(text())='Login/Register']
+11:49:41.195 [main] INFO  ui.utils.MyListener - Before get url ==>> https://urchin-app-jq2i7.ondigitalocean.app/#/login
+11:49:41.524 [main] INFO  ui.utils.MyListener - After get url ==>> https://urchin-app-jq2i7.ondigitalocean.app/#/login
+11:49:41.831 [main] INFO  ui.utils.MyListener - Before find Element ==>> By.xpath: //input[@placeholder='login']
+11:49:41.923 [main] INFO  ui.utils.MyListener - After find Element ==>> By.xpath: //input[@placeholder='login']
+11:49:41.980 [main] INFO  ui.utils.MyListener - Before find Element ==>> By.xpath: //input[@placeholder='login']
+11:49:42.004 [main] INFO  ui.utils.MyListener - After find Element ==>> By.xpath: //input[@placeholder='login']
+11:49:42.078 [main] INFO  ui.utils.MyListener - Before find Element ==>> By.xpath: //input[@placeholder='password']
+11:49:42.107 [main] INFO  ui.utils.MyListener - After find Element ==>> By.xpath: //input[@placeholder='password']
+11:49:42.137 [main] INFO  ui.utils.MyListener - Before find Element ==>> By.xpath: //input[@placeholder='password']
+11:49:42.158 [main] INFO  ui.utils.MyListener - After find Element ==>> By.xpath: //input[@placeholder='password']
+11:49:42.222 [main] INFO  ui.utils.MyListener - Before find Element ==>> By.xpath: //button[@type='submit']
+11:49:42.252 [main] INFO  ui.utils.MyListener - After find Element ==>> By.xpath: //button[@type='submit']
+11:49:42.352 [main] INFO  ui.utils.MyListener - Before find Element ==>> By.xpath: //a[normalize-space(text())='Login/Register']
+11:49:42.389 [main] INFO  ui.utils.MyListener - After find Element ==>> By.xpath: //a[normalize-space(text())='Login/Register']
+21:29:20.505 [main] INFO  ui.utils.MyListener - Before get url ==>> https://urchin-app-jq2i7.ondigitalocean.app/#/login
+21:29:20.996 [main] INFO  ui.utils.MyListener - After get url ==>> https://urchin-app-jq2i7.ondigitalocean.app/#/login
+21:29:21.191 [main] INFO  ui.utils.MyListener - Before find Element ==>> By.xpath: //input[@placeholder='login']
+21:29:21.226 [main] INFO  ui.utils.MyListener - After find Element ==>> By.xpath: //input[@placeholder='login']
+21:29:21.281 [main] INFO  ui.utils.MyListener - Before find Element ==>> By.xpath: //input[@placeholder='login']
+21:29:21.302 [main] INFO  ui.utils.MyListener - After find Element ==>> By.xpath: //input[@placeholder='login']
+21:29:21.375 [main] INFO  ui.utils.MyListener - Before find Element ==>> By.xpath: //input[@placeholder='password']
+21:29:21.400 [main] INFO  ui.utils.MyListener - After find Element ==>> By.xpath: //input[@placeholder='password']
+21:29:21.428 [main] INFO  ui.utils.MyListener - Before find Element ==>> By.xpath: //input[@placeholder='password']
+21:29:21.447 [main] INFO  ui.utils.MyListener - After find Element ==>> By.xpath: //input[@placeholder='password']
+21:29:21.511 [main] INFO  ui.utils.MyListener - Before find Element ==>> By.xpath: //button[@type='submit']
+21:29:21.534 [main] INFO  ui.utils.MyListener - After find Element ==>> By.xpath: //button[@type='submit']
+21:29:21.605 [main] INFO  ui.utils.MyListener - Before find Element ==>> By.xpath: //a[normalize-space(text())='Login/Register']
+21:29:21.625 [main] INFO  ui.utils.MyListener - After find Element ==>> By.xpath: //a[normalize-space(text())='Login/Register']
+22:17:39.425 [Test worker] INFO  ui.utils.MyListener - Before get url ==>> https://urchin-app-jq2i7.ondigitalocean.app/#/login
+22:17:39.857 [Test worker] INFO  ui.utils.MyListener - After get url ==>> https://urchin-app-jq2i7.ondigitalocean.app/#/login
+22:17:40.057 [Test worker] INFO  ui.utils.MyListener - Before find Element ==>> By.xpath: //input[@placeholder='login']
+22:17:40.098 [Test worker] INFO  ui.utils.MyListener - After find Element ==>> By.xpath: //input[@placeholder='login']
+22:17:40.156 [Test worker] INFO  ui.utils.MyListener - Before find Element ==>> By.xpath: //input[@placeholder='login']
+22:17:40.179 [Test worker] INFO  ui.utils.MyListener - After find Element ==>> By.xpath: //input[@placeholder='login']
+22:17:40.254 [Test worker] INFO  ui.utils.MyListener - Before find Element ==>> By.xpath: //input[@placeholder='password']
+22:17:40.282 [Test worker] INFO  ui.utils.MyListener - After find Element ==>> By.xpath: //input[@placeholder='password']
+22:17:40.310 [Test worker] INFO  ui.utils.MyListener - Before find Element ==>> By.xpath: //input[@placeholder='password']
+22:17:40.331 [Test worker] INFO  ui.utils.MyListener - After find Element ==>> By.xpath: //input[@placeholder='password']
+22:17:40.398 [Test worker] INFO  ui.utils.MyListener - Before find Element ==>> By.xpath: //button[@type='submit']
+22:17:40.423 [Test worker] INFO  ui.utils.MyListener - After find Element ==>> By.xpath: //button[@type='submit']
+22:17:40.496 [Test worker] INFO  ui.utils.MyListener - Before find Element ==>> By.xpath: //a[normalize-space(text())='Login/Register']
+22:17:40.520 [Test worker] INFO  ui.utils.MyListener - After find Element ==>> By.xpath: //a[normalize-space(text())='Login/Register']
+22:17:57.583 [Test worker] INFO  ui.utils.MyListener - Before get url ==>> https://urchin-app-jq2i7.ondigitalocean.app/#/login
+22:17:58.003 [Test worker] INFO  ui.utils.MyListener - After get url ==>> https://urchin-app-jq2i7.ondigitalocean.app/#/login
+22:17:58.200 [Test worker] INFO  ui.utils.MyListener - Before find Element ==>> By.xpath: //input[@placeholder='login']
+22:17:58.240 [Test worker] INFO  ui.utils.MyListener - After find Element ==>> By.xpath: //input[@placeholder='login']
+22:17:58.301 [Test worker] INFO  ui.utils.MyListener - Before find Element ==>> By.xpath: //input[@placeholder='login']
+22:17:58.324 [Test worker] INFO  ui.utils.MyListener - After find Element ==>> By.xpath: //input[@placeholder='login']
+22:17:58.399 [Test worker] INFO  ui.utils.MyListener - Before find Element ==>> By.xpath: //input[@placeholder='password']
+22:17:58.423 [Test worker] INFO  ui.utils.MyListener - After find Element ==>> By.xpath: //input[@placeholder='password']
+22:17:58.450 [Test worker] INFO  ui.utils.MyListener - Before find Element ==>> By.xpath: //input[@placeholder='password']
+22:17:58.469 [Test worker] INFO  ui.utils.MyListener - After find Element ==>> By.xpath: //input[@placeholder='password']
+22:17:58.533 [Test worker] INFO  ui.utils.MyListener - Before find Element ==>> By.xpath: //button[@type='submit']
+22:17:58.561 [Test worker] INFO  ui.utils.MyListener - After find Element ==>> By.xpath: //button[@type='submit']
+22:17:58.635 [Test worker] INFO  ui.utils.MyListener - Before find Element ==>> By.xpath: //a[normalize-space(text())='Login/Register']
+22:17:58.658 [Test worker] INFO  ui.utils.MyListener - After find Element ==>> By.xpath: //a[normalize-space(text())='Login/Register']

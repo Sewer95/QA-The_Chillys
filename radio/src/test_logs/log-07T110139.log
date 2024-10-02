@@ -1,0 +1,55 @@
+11:01:40.399 [main] INFO  phonebook_tests.TestBase -- ****************** TESTING IN PROGRESS ******************
+11:01:42.597 [main] INFO  phonebook.utils.MyListener -- Before get url ==>> https://telranedu.web.app/home
+11:01:42.826 [main] INFO  phonebook.utils.MyListener -- After get url ==>> https://telranedu.web.app/home
+11:01:43.157 [main] INFO  phonebook_tests.TestBase -- Test is started: [loginExistedUserPositiveTest]
+11:01:43.166 [main] INFO  phonebook.utils.MyListener -- Before find Element ==>> By.xpath: //a[.='LOGIN']
+11:01:43.221 [main] INFO  phonebook.utils.MyListener -- After find Element ==>> By.xpath: //a[.='LOGIN']
+11:01:43.253 [main] INFO  phonebook.utils.MyListener -- Before get url ==>> https://telranedu.web.app/login
+11:01:43.305 [main] INFO  phonebook.utils.MyListener -- After get url ==>> https://telranedu.web.app/login
+11:01:43.312 [main] INFO  phonebook.utils.MyListener -- Before find Element ==>> By.xpath: //a[.='LOGIN']
+11:01:43.399 [main] INFO  phonebook.utils.MyListener -- After find Element ==>> By.xpath: //a[.='LOGIN']
+11:01:43.487 [main] INFO  phonebook.fw.UserHelper -- Login with data: user_admin_Anna@gmail.com | PasswordAnna@1
+11:01:43.488 [main] INFO  phonebook.utils.MyListener -- Before find Element ==>> By.name: email
+11:01:43.518 [main] INFO  phonebook.utils.MyListener -- After find Element ==>> By.name: email
+11:01:43.603 [main] INFO  phonebook.utils.MyListener -- Before find Element ==>> By.name: email
+11:01:43.632 [main] INFO  phonebook.utils.MyListener -- After find Element ==>> By.name: email
+11:01:43.676 [main] INFO  phonebook.utils.MyListener -- Before find Element ==>> By.name: email
+11:01:43.697 [main] INFO  phonebook.utils.MyListener -- After find Element ==>> By.name: email
+11:01:43.771 [main] INFO  phonebook.utils.MyListener -- Before find Element ==>> By.name: password
+11:01:43.796 [main] INFO  phonebook.utils.MyListener -- After find Element ==>> By.name: password
+11:01:43.866 [main] INFO  phonebook.utils.MyListener -- Before find Element ==>> By.name: password
+11:01:43.887 [main] INFO  phonebook.utils.MyListener -- After find Element ==>> By.name: password
+11:01:43.920 [main] INFO  phonebook.utils.MyListener -- Before find Element ==>> By.name: password
+11:01:43.940 [main] INFO  phonebook.utils.MyListener -- After find Element ==>> By.name: password
+11:01:43.980 [main] INFO  phonebook.utils.MyListener -- Before find Element ==>> By.name: login
+11:01:43.999 [main] INFO  phonebook.utils.MyListener -- After find Element ==>> By.name: login
+11:01:44.070 [main] INFO  phonebook.utils.MyListener -- Before find Element ==>> By.xpath: //*[.='Sign Out']
+11:01:44.982 [main] ERROR phonebook.utils.MyListener -- Что-то пошло не так!!
+11:01:44.983 [main] ERROR phonebook.utils.MyListener -- ***************************************************
+11:01:44.984 [main] ERROR phonebook.utils.MyListener -- Method ==>> findElement
+11:01:44.984 [main] ERROR phonebook.utils.MyListener -- ***************************************************
+11:01:44.984 [main] ERROR phonebook.utils.MyListener -- Object target ==>> ChromeDriver: chrome on windows (41328af953e66f479121b15bdb45bd7a)
+11:01:44.984 [main] ERROR phonebook.utils.MyListener -- ***************************************************
+11:01:44.990 [main] ERROR phonebook.utils.MyListener -- Target exception ==>> org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: //*[.='Sign Out']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.23'
+Driver info: driver.version: RemoteWebDriver
+11:01:44.991 [main] ERROR phonebook.utils.MyListener -- ***************************************************
+11:01:45.506 [main] INFO  phonebook.utils.MyListener -- Before find Element ==>> By.xpath: //*[.='Sign Out']
+11:01:45.534 [main] ERROR phonebook.utils.MyListener -- Что-то пошло не так!!
+11:01:45.535 [main] ERROR phonebook.utils.MyListener -- ***************************************************
+11:01:45.535 [main] ERROR phonebook.utils.MyListener -- Method ==>> findElement
+11:01:45.535 [main] ERROR phonebook.utils.MyListener -- ***************************************************
+11:01:45.536 [main] ERROR phonebook.utils.MyListener -- Object target ==>> ChromeDriver: chrome on windows (41328af953e66f479121b15bdb45bd7a)
+11:01:45.536 [main] ERROR phonebook.utils.MyListener -- ***************************************************
+11:01:45.536 [main] ERROR phonebook.utils.MyListener -- Target exception ==>> org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Wrong email or password}
+  (Session info: chrome=127.0.6533.90): Wrong email or password
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.23'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [41328af953e66f479121b15bdb45bd7a, findElement {value=//*[.='Sign Out'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.90, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Program Files\scoped_dir...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62548}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62548/devtoo..., se:cdpVersion: 127.0.6533.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 41328af953e66f479121b15bdb45bd7a
+11:01:45.536 [main] ERROR phonebook.utils.MyListener -- ***************************************************
+11:01:46.030 [main] INFO  phonebook_tests.TestBase -- ****************** ALL TEST END ******************

@@ -1,0 +1,4 @@
+rootProject.name = 'RadioTest'
+include 'radio'
+include 'radio_rest_assured'
+

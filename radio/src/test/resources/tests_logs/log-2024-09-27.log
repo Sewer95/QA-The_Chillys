@@ -1,0 +1,32 @@
+01:29:08.546 [main] INFO  phonebook_tests.TestBase - ****************** TESTING IN PROGRESS ******************
+01:29:10.849 [main] INFO  i.g.b.wdm.online.Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/129.0.6668.70/win64/chromedriver-win64.zip
+01:29:12.637 [main] INFO  i.g.b.wdm.online.Downloader - Extracting driver from compressed file chromedriver-win64.zip
+01:29:14.513 [main] INFO  phonebook.utils.MyListener - Before get url ==>> https://telranedu.web.app/home
+01:29:14.793 [main] INFO  phonebook.utils.MyListener - After get url ==>> https://telranedu.web.app/home
+01:29:15.025 [main] INFO  phonebook_tests.TestBase - Test is started: [loginExistedUserPositiveTest] with no data
+01:29:15.032 [main] INFO  phonebook.utils.MyListener - Before find Element ==>> By.xpath: //a[.='LOGIN']
+01:29:15.073 [main] INFO  phonebook.utils.MyListener - After find Element ==>> By.xpath: //a[.='LOGIN']
+01:29:15.100 [main] INFO  phonebook.utils.MyListener - Before get url ==>> https://telranedu.web.app/login
+01:29:15.174 [main] INFO  phonebook.utils.MyListener - After get url ==>> https://telranedu.web.app/login
+01:29:15.177 [main] INFO  phonebook.utils.MyListener - Before find Element ==>> By.xpath: //a[.='LOGIN']
+01:29:15.206 [main] INFO  phonebook.utils.MyListener - After find Element ==>> By.xpath: //a[.='LOGIN']
+01:29:15.286 [main] INFO  phonebook.fw.UserHelper - Login with data: user_admin_new3@gmail.com | Password@1
+01:29:15.288 [main] INFO  phonebook.utils.MyListener - Before find Element ==>> By.name: email
+01:29:15.316 [main] INFO  phonebook.utils.MyListener - After find Element ==>> By.name: email
+01:29:15.380 [main] INFO  phonebook.utils.MyListener - Before find Element ==>> By.name: email
+01:29:15.407 [main] INFO  phonebook.utils.MyListener - After find Element ==>> By.name: email
+01:29:15.442 [main] INFO  phonebook.utils.MyListener - Before find Element ==>> By.name: email
+01:29:15.463 [main] INFO  phonebook.utils.MyListener - After find Element ==>> By.name: email
+01:29:15.516 [main] INFO  phonebook.utils.MyListener - Before find Element ==>> By.name: password
+01:29:15.537 [main] INFO  phonebook.utils.MyListener - After find Element ==>> By.name: password
+01:29:15.584 [main] INFO  phonebook.utils.MyListener - Before find Element ==>> By.name: password
+01:29:15.605 [main] INFO  phonebook.utils.MyListener - After find Element ==>> By.name: password
+01:29:15.631 [main] INFO  phonebook.utils.MyListener - Before find Element ==>> By.name: password
+01:29:15.649 [main] INFO  phonebook.utils.MyListener - After find Element ==>> By.name: password
+01:29:15.697 [main] INFO  phonebook.utils.MyListener - Before find Element ==>> By.name: login
+01:29:15.724 [main] INFO  phonebook.utils.MyListener - After find Element ==>> By.name: login
+01:29:15.777 [main] INFO  phonebook.utils.MyListener - Before find Element ==>> By.xpath: //*[.='Sign Out']
+01:29:17.499 [main] INFO  phonebook.utils.MyListener - After find Element ==>> By.xpath: //*[.='Sign Out']
+01:29:17.514 [main] INFO  phonebook_tests.TestBase - Test is PASSED: [loginExistedUserPositiveTest]
+01:29:17.514 [main] INFO  phonebook_tests.TestBase - Test is ended: [loginExistedUserPositiveTest]
+01:29:17.689 [main] INFO  phonebook_tests.TestBase - ****************** ALL TEST END ******************
