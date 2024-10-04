@@ -12,10 +12,10 @@ public class HomeHelper extends BaseHelper {
   }
 
   public boolean isHomeComponentPresent(){
-    return isElementPresent(By.xpath("//h1[text()='Home Component']"));
+    return isElementPresent(By.xpath("//h1[.='The Chillys Radio']"));
   }
 
   public void clickOnHomeLink() {
-    click(By.xpath("//a[contains(text(),'HOME')]"));
+    click(By.xpath("////img[@aria-label='Home']"));
   }
 }

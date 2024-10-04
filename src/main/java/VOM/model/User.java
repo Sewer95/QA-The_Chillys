@@ -1,26 +1,30 @@
 package VOM.model;
 
+import lombok.Getter;
+import lombok.Setter;
+
+import javax.security.auth.callback.PasswordCallback;
+
+@Getter
 public class User {
-  private String userName;
+  private String name;
+  @Setter
+  private String email;
+  @Setter
   private String password;
 
+  public User setName(String name) {
+    this.name = name;
+    return null;
+  }
 
-
-  public User setUserName(String userName) {
-    this.userName = userName;
+  public User setEmail(String email) {
+    this.email = email;
     return this;
   }
 
   public User setPassword(String password) {
     this.password = password;
     return this;
-  }
-
-  public String getUserName() {
-    return userName;
-  }
-
-  public String getPassword() {
-    return password;
   }
 }

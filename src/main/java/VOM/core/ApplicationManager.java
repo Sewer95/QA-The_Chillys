@@ -2,6 +2,8 @@ package VOM.core;
 
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import lombok.Getter;
+import lombok.Setter;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -23,8 +25,11 @@ public class ApplicationManager {
   private final String browser;
   public WebDriver driver;
   public WebDriverWait wait;
+  @Getter
   UserHelper userHelper;
+  @Getter
   HomeHelper homeHelper;
+  @Getter
   RadioStationHelper stationHelper;
   public static Logger logger = LoggerFactory.getLogger(ApplicationManager.class);
 
@@ -44,8 +49,7 @@ public class ApplicationManager {
       driver = new EdgeDriver();
     }
 
-    WebDriverListener listener = new MyListener();
-    driver = new EventFiringDecorator<>(listener).decorate(driver);
+
 
     wait = new WebDriverWait(driver, Duration.ofMillis(2000));
     driver.get("https://urchin-app-jq2i7.ondigitalocean.app/");
@@ -54,18 +58,6 @@ public class ApplicationManager {
     userHelper = new UserHelper(driver, wait);
     homeHelper = new HomeHelper(driver, wait);
     stationHelper = new RadioStationHelper(driver, wait);
-  }
-
-  public UserHelper getUserHelper() {
-    return userHelper;
-  }
-
-  public HomeHelper getHomeHelper() {
-    return homeHelper;
-  }
-
-  public RadioStationHelper getStationHelper() {
-    return stationHelper;
   }
 
   public void stop() {

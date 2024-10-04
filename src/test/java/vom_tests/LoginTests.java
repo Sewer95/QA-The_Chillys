@@ -9,7 +9,7 @@ public class LoginTests extends TestBase {
   @BeforeMethod
   public void ensurePrecondition() {
     if (!app.getUserHelper().isLoginLinkPresent()) {
-      app.getUserHelper().clickOnSignOutButton();
+      app.getUserHelper().clickOnLogOutButton();
     }
     app.driver.get("https://urchin-app-jq2i7.ondigitalocean.app/#/login");
   }
@@ -17,13 +17,13 @@ public class LoginTests extends TestBase {
   @Test
   public void loginExistedUserPositiveTest() {
     app.getUserHelper().loginExistedUserPositive();
-    app.getUserHelper().isSignOutButtonPresent();
+    app.getUserHelper().isLogOutButtonPresent();
   }
 
   @Test
   public void loginUserWitOutPasswordNegativeTest() {
     app.getUserHelper().clickLoginLink();
-    app.getUserHelper().fillInRegistrationForm(new User().setUserName("TestUser"));
+    app.getUserHelper().fillInLoginForm(new User().setName("TestUser"));
     app.getUserHelper().clickOnLoginButton();
     Assert.assertTrue(app.getUserHelper().isAlertPresent());
   }

@@ -9,40 +9,22 @@ public class CreateAccountTests extends TestBase {
   @BeforeMethod
   public void ensurePrecondition(){
     if (!app.getUserHelper().isLoginLinkPresent()) {
-      app.getUserHelper().clickOnSignOutButton();
+      app.getUserHelper().clickOnLogOutButton();
     }
   }
 
-  @Test(priority = 1)
-  public void createAccountPositiveTest() {
-// click on Login link
-    app.driver.findElement(By.xpath("//a[.='LOGIN']")).click();
-// enter email
-    app.driver.findElement(By.name("email")).click();
-    app.driver.findElement(By.name("email")).clear();
-    app.driver.findElement(By.name("email")).sendKeys("user_admin_new2@gmail.com");
-// enter password
-    app.driver.findElement(By.name("password")).click();
-    app.driver.findElement(By.name("password")).clear();
-    app.driver.findElement(By.name("password")).sendKeys("Password@1");
-// click on the Registration button
-    app.driver.findElement(By.name("registration")).click();
-    System.out.println("Button 'registration' is pressed and User is registered successfully");
-// Assert that button SignOut is present
-    app.getUserHelper().isSignOutButtonPresent();
 
-  }
 
-  @Test(priority = 2)
+  @Test
   public void createAccountPositiveTestRefactor() {
     app.getUserHelper().clickLoginLink();
     app.getUserHelper().type(By.name("email"),"user_admin_new3@gmail.com");
     app.getUserHelper().type(By.name("password"),"Password@1");
     app.getUserHelper().click(By.name("registration"));
-    app.getUserHelper().isSignOutButtonPresent();
+    app.getUserHelper().isLogOutButtonPresent();
   }
 
-  @Test(priority = 3)
+  @Test
   public void createExistedAccountNegativeTest() {
     SoftAssert softAssert = new SoftAssert();
     app.getUserHelper().clickLoginLink();

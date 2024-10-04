@@ -29,22 +29,12 @@ public class RadioStationHelper extends BaseHelper {
 
   public void addNewContactPositiveData(String name) {
     clickADDLink();
-    fillAddContactForm(new RadioStation()
-        .setName(name)
-        .setLastName("TestLastName")
-        .setPhone("1234567890")
-        .setEmail("admin@gmail.com")
-        .setAddress("Germany, Berlin"));
+
     clickOnSAVEContactButton();
   }
 
   public void fillAddContactForm(RadioStation contact) {
-    type(By.xpath("//input[@placeholder='Name']"), contact.getName());
-    type(By.xpath("//input[@placeholder='Last Name']"), contact.getLastName());
-    type(By.xpath("//input[@placeholder='Phone']"), contact.getPhone());
-    type(By.xpath("//input[@placeholder='email']"), contact.getEmail());
-    type(By.xpath("//input[@placeholder='Address']"), contact.getAddress());
-    type(By.xpath("//input[@placeholder='description']"), contact.getDescription());
+
   }
 
   public void clickOnSAVEContactButton() {

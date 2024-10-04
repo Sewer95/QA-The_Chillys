@@ -38,8 +38,7 @@ public class TestBase {
     logger.info("Test is ended: [" + method.getName() +"]");
   }
 
-  //@AfterMethod(enabled = true)
-  @AfterSuite(enabled = true)
+  @AfterSuite(enabled = false)
   public void tearDown() {
     app.stop();
     logger.info("****************** ALL TEST END ******************");
