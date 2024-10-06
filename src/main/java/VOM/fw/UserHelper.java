@@ -38,6 +38,9 @@ public class UserHelper extends BaseHelper {
     public void clickLoginLink() {
         click(By.xpath("//a[.='Login']"));
     }
+    public void clickRegisterLink() {
+        click(By.xpath("//a[.='Register']"));
+    }
 
     public void isLogOutButtonPresent() {
         Assert.assertTrue(isElementPresent(By.xpath("//button[text()='Logout']")));
