@@ -16,7 +16,7 @@ public class LoginPageSteps {
 
   @And("User enters valid data")
   public void userEntersValidCredentials() {
-    new LoginPage(driver).enterCredentials("testUser@gmail.com", "passwordTest01");
+    new LoginPage(driver).enterCredentials("TestUser", "passwordTest01");
   }
 
   @And("User clicks on the Login button")
@@ -29,7 +29,7 @@ public class LoginPageSteps {
     new LoginPage(driver).verifyTextMessage("Logged in success");
   }
 
-  @And("User enters valid email and invalid password")
+  @And("User enters valid name and invalid password")
   public void userEntersValidEmailInvalidPassword(DataTable table) {
     new LoginPage(driver).enterInValidCredentials(table);
   }

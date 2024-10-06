@@ -4,6 +4,7 @@ import Cucumber.core.BasePage;
 import io.cucumber.datatable.DataTable;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 
 import java.util.List;
 import java.util.Map;
@@ -13,19 +14,19 @@ public class LoginPage extends BasePage {
     super(driver);
   }
 
- // @FindBy(id = "email")
-  WebElement emailInput;
+  @FindBy(xpath = "//input[@placeholder='login']")
+  WebElement loginInput;
 
- // @FindBy(id = "password")
+  @FindBy(xpath = "//input[@placeholder='password']")
   WebElement passwordInput;
 
-  public LoginPage enterCredentials(String email, String password) {
-    type(emailInput, email);
+  public LoginPage enterCredentials(String name, String password) {
+    type(loginInput, name);
     type(passwordInput, password);
     return this;
   }
 
-//  @FindBy(xpath = "//button[.='Y’alla!']")
+  @FindBy(xpath = "//button[.='send form']")
      WebElement loginButton;
 
   public LoginPage clickOnLoginButton() {

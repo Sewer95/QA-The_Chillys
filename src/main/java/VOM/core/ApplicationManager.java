@@ -3,16 +3,12 @@ package VOM.core;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import lombok.Getter;
-import lombok.Setter;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.support.events.EventFiringDecorator;
-import org.openqa.selenium.support.events.WebDriverListener;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import VOM.fw.RadioStationHelper;
 import VOM.fw.HomeHelper;
 import VOM.fw.UserHelper;
 import org.slf4j.Logger;
@@ -29,8 +25,7 @@ public class ApplicationManager {
   UserHelper userHelper;
   @Getter
   HomeHelper homeHelper;
-  @Getter
-  RadioStationHelper stationHelper;
+
   public static Logger logger = LoggerFactory.getLogger(ApplicationManager.class);
 
   public ApplicationManager(String browser) {
@@ -57,7 +52,7 @@ public class ApplicationManager {
     driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
     userHelper = new UserHelper(driver, wait);
     homeHelper = new HomeHelper(driver, wait);
-    stationHelper = new RadioStationHelper(driver, wait);
+
   }
 
   public void stop() {

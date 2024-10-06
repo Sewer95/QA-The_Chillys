@@ -15,7 +15,7 @@ public class User {
 
   public User setName(String name) {
     this.name = name;
-    return null;
+    return this;
   }
 
   public User setEmail(String email) {

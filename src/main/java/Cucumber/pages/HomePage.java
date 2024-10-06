@@ -11,18 +11,18 @@ public class HomePage extends BasePage {
   }
 
   public HomePage openHomePage() {
-    driver.get("https://");
+    driver.get("https://urchin-app-jq2i7.ondigitalocean.app/#/");
     return new HomePage(driver);
   }
 
-  @FindBy()
+  @FindBy(xpath = "//h1[.='The Chillys Radio']")
   WebElement homePageTitle;
 
   public boolean isHomePageTitleDisplayed() {
     return isElementPresent(homePageTitle);
   }
 
-  @FindBy()
+  @FindBy(xpath = "//a[.='Login']")
   WebElement loginLink;
 
   public LoginPage clickOnLoginLink() {
